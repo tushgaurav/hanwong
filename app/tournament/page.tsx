@@ -1,6 +1,16 @@
+import type {Metadata} from 'next';
 import TournamentClient from './TournamentClient';
+import { getTournaments } from '@/actions/tournamentAction';
+import { Tournament } from '@/types/tournamentType';
 
-export default function Tournaments() {
+export const metadata: Metadata = {
+  title: 'Tournaments - Han Wong International',
+  description: 'Tournaments - Han Wong International',
+};
+
+export default async function Tournaments() {
+  const tournaments = await getTournaments();
+
   return (
     <main>
       {/* Hero Section */}
@@ -13,8 +23,7 @@ export default function Tournaments() {
         </div>
       </section>
 
-      {/* Tournaments List */}
-      <TournamentClient />
+      <TournamentClient tournaments={tournaments} />
     </main>
   );
 }

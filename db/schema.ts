@@ -1,3 +1,4 @@
+export * from "@/db/auth-schema";
 import { integer, pgTable, serial, text, timestamp } from "drizzle-orm/pg-core";
 
 export const tournament = pgTable("tournament", {

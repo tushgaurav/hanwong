@@ -35,4 +35,5 @@ export default function AffiliationForm() {
 
             <button type="submit" className="w-full p-3 bg-[var(--primary)] text-white border-none rounded-md cursor-pointer font-semibold transition-colors hover:bg-[var(--primary-dark)]">Submit Application</button>
         </form>
-    )
+    );
+}
