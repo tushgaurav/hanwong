@@ -11,7 +11,7 @@ export default function Footer() {
             </div>
             <span className="font-bold">Han Wong International</span>
           </div>
-          <p className="text-[var(--muted)] text-sm mb-4">
+          <p className="text-[var(--muted-foreground)] text-sm mb-4">
             Uniting martial artists worldwide through competition, character, and charity.
           </p>
         </div>
@@ -19,22 +19,22 @@ export default function Footer() {
           <h4 className="font-semibold mb-4">Quick Links</h4>
           <ul className="list-none p-0 flex flex-col gap-2">
             <li>
-              <Link href="/about" className="text-[var(--muted)] no-underline transition-colors hover:text-[var(--primary)]">
+              <Link href="/about" className="text-[var(--muted-foreground)] no-underline transition-colors hover:text-[var(--primary)]">
                 About Us
               </Link>
             </li>
             <li>
-              <Link href="/tournament" className="text-[var(--muted)] no-underline transition-colors hover:text-[var(--primary)]">
+              <Link href="/tournament" className="text-[var(--muted-foreground)] no-underline transition-colors hover:text-[var(--primary)]">
                 Tournaments
               </Link>
             </li>
             <li>
-              <Link href="/affiliation" className="text-[var(--muted)] no-underline transition-colors hover:text-[var(--primary)]">
+              <Link href="/affiliation" className="text-[var(--muted-foreground)] no-underline transition-colors hover:text-[var(--primary)]">
                 School Affiliation
               </Link>
             </li>
             <li>
-              <Link href="/gallery" className="text-[var(--muted)] no-underline transition-colors hover:text-[var(--primary)]">
+              <Link href="/gallery" className="text-[var(--muted-foreground)] no-underline transition-colors hover:text-[var(--primary)]">
                 Media Gallery
               </Link>
             </li>
@@ -44,22 +44,22 @@ export default function Footer() {
           <h4 className="font-semibold mb-4">Resources</h4>
           <ul className="list-none p-0 flex flex-col gap-2">
             <li>
-              <Link href="/register" className="text-[var(--muted)] no-underline transition-colors hover:text-[var(--primary)]">
+              <Link href="/register" className="text-[var(--muted-foreground)] no-underline transition-colors hover:text-[var(--primary)]">
                 Tournament Registration
               </Link>
             </li>
             <li>
-              <Link href="/tournament" className="text-[var(--muted)] no-underline transition-colors hover:text-[var(--primary)]">
+              <Link href="/tournament" className="text-[var(--muted-foreground)] no-underline transition-colors hover:text-[var(--primary)]">
                 Past Results
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="text-[var(--muted)] no-underline transition-colors hover:text-[var(--primary)]">
+              <Link href="/contact" className="text-[var(--muted-foreground)] no-underline transition-colors hover:text-[var(--primary)]">
                 Contact Us
               </Link>
             </li>
             <li>
-              <a href="#" className="text-[var(--muted)] no-underline transition-colors hover:text-[var(--primary)]">
+              <a href="#" className="text-[var(--muted-foreground)] no-underline transition-colors hover:text-[var(--primary)]">
                 FAQ
               </a>
             </li>
@@ -67,20 +67,20 @@ export default function Footer() {
         </div>
         <div>
           <h4 className="font-semibold mb-4">Contact</h4>
-          <ul className="list-none p-0 flex flex-col gap-3 text-[var(--muted)] text-sm">
+          <ul className="list-none p-0 flex flex-col gap-3 text-[var(--muted-foreground)] text-sm">
             <li>📧 info@hanwonginternational.com</li>
             <li>📞 +1 (555) 123-4567</li>
             <li>📍 Los Angeles, CA, USA</li>
           </ul>
         </div>
       </div>
-      <div className="max-w-[90rem] mx-auto pt-8 border-t border-[var(--border)] flex justify-between items-center flex-wrap gap-4 text-[var(--muted)] text-sm">
+      <div className="max-w-[90rem] mx-auto pt-8 border-t border-[var(--border)] flex justify-between items-center flex-wrap gap-4 text-[var(--muted-foreground)] text-sm">
         <p>&copy; {new Date().getFullYear()} Han Wong International. All rights reserved.</p>
         <div className="flex gap-4">
-          <Link href="/privacy-policy" className="text-[var(--muted)] no-underline hover:text-[var(--primary)]">
+          <Link href="/privacy-policy" className="text-[var(--muted-foreground)] no-underline hover:text-[var(--primary)]">
             Privacy Policy
           </Link>
-          <Link href="/terms-of-service" className="text-[var(--muted)] no-underline hover:text-[var(--primary)]">
+          <Link href="/terms-of-service" className="text-[var(--muted-foreground)] no-underline hover:text-[var(--primary)]">
             Terms of Service
           </Link>
         </div>

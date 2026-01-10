@@ -16,7 +16,7 @@ export default function Affiliation() {
             For Dojang Owners & Masters
           </span>
           <h1 className="text-4xl font-black mb-4">School Affiliation Program</h1>
-          <p className="max-w-2xl mx-auto text-[var(--muted)] text-lg">
+          <p className="max-w-2xl mx-auto text-[var(--muted-foreground)] text-lg">
             Elevate your Dojang by joining the Han Wong International network. Gain global recognition and exclusive benefits.
           </p>
         </div>
@@ -26,7 +26,7 @@ export default function Affiliation() {
       <section className="py-16 px-4">
         <div className="max-w-[90rem] mx-auto px-4">
           <h2 className="text-3xl font-black text-center mb-2">Benefits of Affiliation</h2>
-          <p className="text-center max-w-2xl mx-auto text-[var(--muted)] text-lg mb-12">
+          <p className="text-center max-w-2xl mx-auto text-[var(--muted-foreground)] text-lg mb-12">
             Gain access to exclusive resources, global network, and prestige
           </p>
           
@@ -39,7 +39,7 @@ export default function Affiliation() {
                 </svg>
               </div>
               <h3 className="font-black mb-2">Official Certification</h3>
-              <p className="text-[var(--muted)] text-sm">Receive official Han Wong International certification for your Dojang</p>
+              <p className="text-[var(--muted-foreground)] text-sm">Receive official Han Wong International certification for your Dojang</p>
             </div>
 
             <div className="border border-[var(--border)] bg-white p-6 rounded-md">
@@ -49,7 +49,7 @@ export default function Affiliation() {
                 </svg>
               </div>
               <h3 className="font-black mb-2">Black Belt Recognition</h3>
-              <p className="text-[var(--muted)] text-sm">Your students' black belt ranks recognized by our global network</p>
+              <p className="text-[var(--muted-foreground)] text-sm">Your students' black belt ranks recognized by our global network</p>
             </div>
 
             <div className="border border-[var(--border)] bg-white p-6 rounded-md">
@@ -60,7 +60,7 @@ export default function Affiliation() {
                 </svg>
               </div>
               <h3 className="font-black mb-2">Global Network Access</h3>
-              <p className="text-[var(--muted)] text-sm">Connect with Masters and Dojangs from over 20 countries</p>
+              <p className="text-[var(--muted-foreground)] text-sm">Connect with Masters and Dojangs from over 20 countries</p>
             </div>
 
             <div className="border border-[var(--border)] bg-white p-6 rounded-md">
@@ -70,7 +70,7 @@ export default function Affiliation() {
                 </svg>
               </div>
               <h3 className="font-black mb-2">Tournament Priority</h3>
-              <p className="text-[var(--muted)] text-sm">Priority registration and reduced fees for all HWI tournaments</p>
+              <p className="text-[var(--muted-foreground)] text-sm">Priority registration and reduced fees for all HWI tournaments</p>
             </div>
 
             <div className="border border-[var(--border)] bg-white p-6 rounded-md">
@@ -81,7 +81,7 @@ export default function Affiliation() {
                 </svg>
               </div>
               <h3 className="font-black mb-2">Training Resources</h3>
-              <p className="text-[var(--muted)] text-sm">Access exclusive training materials and curriculum guides</p>
+              <p className="text-[var(--muted-foreground)] text-sm">Access exclusive training materials and curriculum guides</p>
             </div>
 
             <div className="border border-[var(--border)] bg-white p-6 rounded-md">
@@ -91,7 +91,7 @@ export default function Affiliation() {
                 </svg>
               </div>
               <h3 className="font-black mb-2">Marketing Support</h3>
-              <p className="text-[var(--muted)] text-sm">Use the HWI brand to elevate your school's prestige</p>
+              <p className="text-[var(--muted-foreground)] text-sm">Use the HWI brand to elevate your school's prestige</p>
             </div>
           </div>
         </div>
@@ -103,7 +103,7 @@ export default function Affiliation() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
             <div>
               <h2 className="text-3xl font-black mb-4">Requirements</h2>
-              <p className="text-[var(--muted)] mb-6">
+              <p className="text-[var(--muted-foreground)] mb-6">
                 We welcome qualified martial arts schools that share our commitment to excellence and humanitarian values.
               </p>
               <ul className="list-none p-0 flex flex-col gap-4">
@@ -114,7 +114,7 @@ export default function Affiliation() {
                   "Clean record and good standing in martial arts community",
                   "Willingness to participate in annual HWI events"
                 ].map((req, i) => (
-                  <li key={i} className="flex items-start gap-3 pl-6 text-[var(--muted)] relative">
+                  <li key={i} className="flex items-start gap-3 pl-6 text-[var(--muted-foreground)] relative">
                     <span className="absolute left-0 text-[var(--primary)] font-bold text-xl">✓</span>
                     {req}
                   </li>
@@ -132,15 +132,15 @@ export default function Affiliation() {
           <h2 className="text-3xl font-black text-center mb-12">What Our Members Say</h2>
           <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-6">
             <div className="border border-[var(--border)] bg-white p-6 rounded-md">
-              <p className="text-lg italic mb-4 text-[var(--muted)]">"Joining HWI transformed our school. The global recognition and network access have been invaluable for our students' growth."</p>
+              <p className="text-lg italic mb-4 text-[var(--muted-foreground)]">"Joining HWI transformed our school. The global recognition and network access have been invaluable for our students' growth."</p>
               <div className="font-black mb-1">Master James Chen</div>
-              <div className="text-[var(--muted)] text-sm">Dragon Spirit TKD • Sydney, Australia</div>
+              <div className="text-[var(--muted-foreground)] text-sm">Dragon Spirit TKD • Sydney, Australia</div>
             </div>
 
             <div className="border border-[var(--border)] bg-white p-6 rounded-md">
-              <p className="text-lg italic mb-4 text-[var(--muted)]">"The certification and training resources from HWI have elevated our curriculum to international standards."</p>
+              <p className="text-lg italic mb-4 text-[var(--muted-foreground)]">"The certification and training resources from HWI have elevated our curriculum to international standards."</p>
               <div className="font-black mb-1">Master Elena Rodriguez</div>
-              <div className="text-[var(--muted)] text-sm">Champions Academy • Madrid, Spain</div>
+              <div className="text-[var(--muted-foreground)] text-sm">Champions Academy • Madrid, Spain</div>
             </div>
           </div>
         </div>

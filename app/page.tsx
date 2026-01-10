@@ -65,7 +65,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-black mb-4 text-center">
             A Truly Global Championship
           </h2>
-          <p className="text-center max-w-2xl mx-auto text-[var(--muted)] mb-12">
+          <p className="text-center max-w-2xl mx-auto text-[var(--muted-foreground)] mb-12">
             Athletes from around the world unite to compete in our prestigious
             online tournaments
           </p>
@@ -75,7 +75,7 @@ export default function Home() {
               <div className="text-4xl font-black text-[var(--primary)] mb-2">
                 20+
               </div>
-              <div className="text-[var(--muted)] text-sm">
+              <div className="text-[var(--muted-foreground)] text-sm">
                 Participating Nations
               </div>
             </div>
@@ -83,7 +83,7 @@ export default function Home() {
               <div className="text-4xl font-black text-[var(--primary)] mb-2">
                 500+
               </div>
-              <div className="text-[var(--muted)] text-sm">
+              <div className="text-[var(--muted-foreground)] text-sm">
                 Registered Athletes
               </div>
             </div>
@@ -91,13 +91,13 @@ export default function Home() {
               <div className="text-4xl font-black text-[var(--primary)] mb-2">
                 5+
               </div>
-              <div className="text-[var(--muted)] text-sm">Years of Legacy</div>
+              <div className="text-[var(--muted-foreground)] text-sm">Years of Legacy</div>
             </div>
             <div className="border border-[var(--border)] bg-white p-6 rounded-md text-center">
               <div className="text-4xl font-black text-[var(--primary)] mb-2">
                 100+
               </div>
-              <div className="text-[var(--muted)] text-sm">
+              <div className="text-[var(--muted-foreground)] text-sm">
                 Affiliated Dojangs
               </div>
             </div>
@@ -149,7 +149,7 @@ export default function Home() {
               <h3 className="text-3xl font-black mb-6">
                 More Than Competition
               </h3>
-              <p className="mb-8 text-[var(--muted)] leading-[1.8]">
+              <p className="mb-8 text-[var(--muted-foreground)] leading-[1.8]">
                 At Han Wong International, we believe martial arts is about
                 building character and serving humanity. That's why{" "}
                 <strong>
@@ -168,7 +168,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Humanitarian Impact</h4>
-                    <p className="text-sm text-[var(--muted)] m-0">
+                    <p className="text-sm text-[var(--muted-foreground)] m-0">
                       Supporting communities in need across the globe through
                       martial arts
                     </p>
@@ -183,7 +183,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Global Unity</h4>
-                    <p className="text-sm text-[var(--muted)] m-0">
+                    <p className="text-sm text-[var(--muted-foreground)] m-0">
                       Bringing together athletes from diverse backgrounds in
                       peaceful competition
                     </p>
@@ -199,7 +199,7 @@ export default function Home() {
                     <h4 className="font-semibold mb-1">
                       Excellence & Character
                     </h4>
-                    <p className="text-sm text-[var(--muted)] m-0">
+                    <p className="text-sm text-[var(--muted-foreground)] m-0">
                       Developing champions both on the mat and in life
                     </p>
                   </div>

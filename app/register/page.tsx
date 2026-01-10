@@ -20,7 +20,7 @@ export default function Register() {
       <section className="bg-[var(--card)] py-16 px-4">
         <div className="max-w-[64rem] mx-auto px-4 text-center">
           <h1 className="text-4xl font-black mb-4">Tournament Registration</h1>
-          <p className="max-w-2xl mx-auto text-[var(--muted)]">
+          <p className="max-w-2xl mx-auto text-[var(--muted-foreground)]">
             Register now to compete in our upcoming championship events. 100% of fees go to humanitarian charity.
           </p>
         </div>
@@ -147,7 +147,7 @@ export default function Register() {
                 </svg>
               </div>
               <h2 className="text-3xl font-black mb-4">Registration Complete!</h2>
-              <p className="text-[var(--muted)] mb-8">Thank you for registering. You will receive a confirmation email with further details about the tournament.</p>
+              <p className="text-[var(--muted-foreground)] mb-8">Thank you for registering. You will receive a confirmation email with further details about the tournament.</p>
               <button 
                 className="w-full max-w-xs p-4 bg-[var(--primary)] text-white border-none rounded-md cursor-pointer font-semibold text-base transition-colors hover:bg-[var(--primary-dark)]" 
                 onClick={resetForm}

@@ -7,7 +7,7 @@ export default function Contact() {
       <section className="bg-[var(--card)] py-16 px-4">
         <div className="max-w-[90rem] mx-auto px-4 text-center">
           <h1 className="text-5xl font-black mb-4">Contact Us</h1>
-          <p className="max-w-2xl mx-auto text-[var(--muted)] text-lg">
+          <p className="max-w-2xl mx-auto text-[var(--muted-foreground)] text-lg">
             Have questions about tournaments, affiliation, or our mission? We'd love to hear from you.
           </p>
         </div>
@@ -28,7 +28,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Email</h4>
-                  <a href="mailto:info@hanwonginternational.com" className="text-[var(--muted)] no-underline transition-colors hover:text-[var(--primary)]">info@hanwonginternational.com</a>
+                  <a href="mailto:info@hanwonginternational.com" className="text-[var(--muted-foreground)] no-underline transition-colors hover:text-[var(--primary)]">info@hanwonginternational.com</a>
                 </div>
               </div>
 
@@ -40,7 +40,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Phone</h4>
-                  <a href="tel:+15551234567" className="text-[var(--muted)] no-underline transition-colors hover:text-[var(--primary)]">+1 (555) 123-4567</a>
+                  <a href="tel:+15551234567" className="text-[var(--muted-foreground)] no-underline transition-colors hover:text-[var(--primary)]">+1 (555) 123-4567</a>
                 </div>
               </div>
 
@@ -53,7 +53,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Headquarters</h4>
-                  <p className="text-[var(--muted)] m-0">Los Angeles, CA, USA</p>
+                  <p className="text-[var(--muted-foreground)] m-0">Los Angeles, CA, USA</p>
                 </div>
               </div>
 
@@ -66,7 +66,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Office Hours</h4>
-                  <p className="text-[var(--muted)] m-0">Mon-Fri: 9AM - 5PM PST</p>
+                  <p className="text-[var(--muted-foreground)] m-0">Mon-Fri: 9AM - 5PM PST</p>
                 </div>
               </div>
 

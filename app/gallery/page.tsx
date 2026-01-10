@@ -38,7 +38,7 @@ export default function Gallery() {
       <section className="bg-[var(--card)] py-16 px-4">
         <div className="max-w-[90rem] mx-auto px-4 text-center">
           <h1 className="text-5xl font-black mb-4">Media Gallery</h1>
-          <p className="max-w-2xl mx-auto text-[var(--muted)] text-lg">
+          <p className="max-w-2xl mx-auto text-[var(--muted-foreground)] text-lg">
             Explore highlights from our championships, training sessions, and charitable events.
           </p>
         </div>
@@ -52,7 +52,7 @@ export default function Gallery() {
               className={`pb-4 px-4 bg-transparent border-none cursor-pointer font-semibold text-base transition-colors border-b-[3px] ${
                 activeTab === 'photos'
                   ? 'text-[var(--primary)] border-[var(--primary)]'
-                  : 'text-[var(--muted)] border-transparent hover:text-[var(--foreground)]'
+                  : 'text-[var(--muted-foreground)] border-transparent hover:text-[var(--foreground)]'
               }`}
               onClick={() => setActiveTab('photos')}
             >
@@ -62,7 +62,7 @@ export default function Gallery() {
               className={`pb-4 px-4 bg-transparent border-none cursor-pointer font-semibold text-base transition-colors border-b-[3px] ${
                 activeTab === 'videos'
                   ? 'text-[var(--primary)] border-[var(--primary)]'
-                  : 'text-[var(--muted)] border-transparent hover:text-[var(--foreground)]'
+                  : 'text-[var(--muted-foreground)] border-transparent hover:text-[var(--foreground)]'
               }`}
               onClick={() => setActiveTab('videos')}
             >
@@ -93,8 +93,8 @@ export default function Gallery() {
           {/* Videos Gallery */}
           {activeTab === 'videos' && (
             <div className="text-center py-12">
-              <p className="text-[var(--muted)] text-lg mb-4">Our video content is coming soon!</p>
-              <p className="text-[var(--muted)] mb-6">Subscribe to our YouTube channel to get notified when we release championship highlights and exclusive content.</p>
+              <p className="text-[var(--muted-foreground)] text-lg mb-4">Our video content is coming soon!</p>
+              <p className="text-[var(--muted-foreground)] mb-6">Subscribe to our YouTube channel to get notified when we release championship highlights and exclusive content.</p>
               <a 
                 href="https://youtube.com" 
                 target="_blank" 

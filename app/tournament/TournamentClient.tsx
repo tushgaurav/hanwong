@@ -48,7 +48,7 @@ export default function TournamentClient({ tournaments }: { tournaments: Tournam
             className={`pb-4 px-4 bg-transparent border-none cursor-pointer font-semibold text-base transition-colors border-b-[3px] ${
               activeTab === 'upcoming'
                 ? 'text-[var(--primary)] border-[var(--primary)]'
-                : 'text-[var(--muted)] border-transparent hover:text-[var(--foreground)]'
+                : 'text-[var(--muted-foreground)] border-transparent hover:text-[var(--foreground)]'
             }`}
             onClick={() => handleTabChange('upcoming')}
           >
@@ -59,7 +59,7 @@ export default function TournamentClient({ tournaments }: { tournaments: Tournam
             className={`pb-4 px-4 bg-transparent border-none cursor-pointer font-semibold text-base transition-colors border-b-[3px] ${
               activeTab === 'results'
                 ? 'text-[var(--primary)] border-[var(--primary)]'
-                : 'text-[var(--muted)] border-transparent hover:text-[var(--foreground)]'
+                : 'text-[var(--muted-foreground)] border-transparent hover:text-[var(--foreground)]'
             }`}
             onClick={() => handleTabChange('results')}
           >
@@ -72,7 +72,7 @@ export default function TournamentClient({ tournaments }: { tournaments: Tournam
           <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-6 mb-12">
             {upcomingTournaments.length === 0 ? (
               <div className="col-span-full text-center py-12">
-                <p className="text-[var(--muted)] text-lg">No upcoming tournaments at the moment.</p>
+                <p className="text-[var(--muted-foreground)] text-lg">No upcoming tournaments at the moment.</p>
               </div>
             ) : (
               upcomingTournaments.map((tournament) => (
@@ -94,7 +94,7 @@ export default function TournamentClient({ tournaments }: { tournaments: Tournam
                     )}
                   </div>
                   <h3 className="text-xl font-black mb-4">{tournament.title}</h3>
-                  <div className="flex flex-col gap-3 mb-4 text-sm text-[var(--muted)]">
+                  <div className="flex flex-col gap-3 mb-4 text-sm text-[var(--muted-foreground)]">
                     <div className="flex items-center gap-2">📅 {formatDate(tournament.start_date, tournament.end_date)}</div>
                     <div className="flex items-center gap-2">🌍 {tournament.location}</div>
                     <div className="flex items-center gap-2">👥 {tournament.registration_count} registered</div>
@@ -116,18 +116,18 @@ export default function TournamentClient({ tournaments }: { tournaments: Tournam
           <div className="flex flex-col gap-4">
             {pastTournaments.length === 0 ? (
               <div className="text-center py-12">
-                <p className="text-[var(--muted)] text-lg">No past tournament results available.</p>
+                <p className="text-[var(--muted-foreground)] text-lg">No past tournament results available.</p>
               </div>
             ) : (
               pastTournaments.map((tournament) => (
                 <div key={tournament.id} className="border border-[var(--border)] p-6 rounded-md flex justify-between items-center flex-wrap gap-4 bg-white">
                   <div>
                     <h4 className="font-black text-lg mb-1">{tournament.title}</h4>
-                    <p className="text-[var(--muted)] text-sm m-0">
+                    <p className="text-[var(--muted-foreground)] text-sm m-0">
                       {formatDate(tournament.start_date, tournament.end_date)} • {tournament.registration_count} participants
                     </p>
                     {tournament.description && (
-                      <p className="text-[var(--muted)] text-sm mt-2 mb-0">{tournament.description}</p>
+                      <p className="text-[var(--muted-foreground)] text-sm mt-2 mb-0">{tournament.description}</p>
                     )}
                   </div>
                   <button
