@@ -25,7 +25,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop" 
+                src="/images/han-wong.png" 
                 alt="Grand Master Han Wong" 
                 className="w-full aspect-[3/4] object-cover rounded-md"
               />

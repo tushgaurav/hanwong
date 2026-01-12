@@ -138,7 +138,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-12">
             <div>
               <Image
-                src="https://images.unsplash.com/photo-1469027773879-ec0a0df4d03b?w=500&h=400&fit=crop"
+                src="/images/community.png"
                 alt="Charity"
                 width={500}
                 height={400}
