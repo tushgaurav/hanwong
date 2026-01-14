@@ -10,7 +10,7 @@ export default function Home() {
           className="absolute inset-0 bg-cover bg-center z-[1]"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&h=800&fit=crop')",
+              "url('/images/tournament_competition_arena.png')",
           }}
         ></div>
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80 z-[2]"></div>
@@ -132,13 +132,72 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Mission Section */}
+      {/* Athlete Excellence Section */}
       <section className="py-16 px-4">
+        <div className="max-w-[90rem] mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-black mb-4 text-center">
+            Excellence in Every Form
+          </h2>
+          <p className="text-center max-w-2xl mx-auto text-[var(--muted-foreground)] mb-12">
+            Our athletes demonstrate the highest levels of skill, discipline, and sportsmanship
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="relative group overflow-hidden rounded-md">
+              <Image
+                src="/images/taekwondo_athlete_high_kick.png"
+                alt="Taekwondo High Kick"
+                width={400}
+                height={500}
+                className="w-full h-[400px] object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
+                <div>
+                  <h3 className="text-xl font-bold text-white mb-2">Technical Excellence</h3>
+                  <p className="text-white/80 text-sm">Precision and power in every movement</p>
+                </div>
+              </div>
+            </div>
+            <div className="relative group overflow-hidden rounded-md">
+              <Image
+                src="/images/tournament_competition_arena.png"
+                alt="Tournament Arena"
+                width={400}
+                height={500}
+                className="w-full h-[400px] object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
+                <div>
+                  <h3 className="text-xl font-bold text-white mb-2">Global Competition</h3>
+                  <p className="text-white/80 text-sm">Compete on the world stage</p>
+                </div>
+              </div>
+            </div>
+            <div className="relative group overflow-hidden rounded-md">
+              <Image
+                src="/images/charity_donation_event.png"
+                alt="Community Impact"
+                width={400}
+                height={500}
+                className="w-full h-[400px] object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
+                <div>
+                  <h3 className="text-xl font-bold text-white mb-2">Community Impact</h3>
+                  <p className="text-white/80 text-sm">Making a difference together</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Mission Section */}
+      <section className="py-16 px-4 bg-[var(--card)]">
         <div className="max-w-[90rem] mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-12">
             <div>
               <Image
-                src="/images/community.png"
+                src="/images/charity_donation_event.png"
                 alt="Charity"
                 width={500}
                 height={400}
@@ -206,6 +265,122 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* School Affiliation Program Section */}
+      <section className="py-16 px-4 bg-gradient-to-b from-gray-50 to-white">
+        <div className="max-w-[90rem] mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-black mb-4 text-center">
+            School Affiliation Program
+          </h2>
+          <p className="text-center max-w-3xl mx-auto text-[var(--muted-foreground)] mb-12 text-lg">
+            Elevate your Dojang by joining the Han Wong International network. Gain access to
+            exclusive benefits and be part of a global martial arts community.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+            {/* Official Certification */}
+            <div className="bg-white border border-[var(--border)] p-8 rounded-md hover:shadow-lg transition-shadow">
+              <div className="w-14 h-14 flex items-center justify-center bg-[#D4AF37]/10 rounded-md mb-4">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-7 h-7 text-[var(--primary)]">
+                  <circle cx="12" cy="8" r="4" strokeWidth="2" />
+                  <path d="M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2" strokeWidth="2" />
+                  <path d="M12 12v9" strokeWidth="2" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold mb-3">Official Certification</h3>
+              <p className="text-[var(--muted-foreground)]">
+                Receive official Han Wong International certification for your Dojang
+              </p>
+            </div>
+
+            {/* Black Belt Recognition */}
+            <div className="bg-white border border-[var(--border)] p-8 rounded-md hover:shadow-lg transition-shadow">
+              <div className="w-14 h-14 flex items-center justify-center bg-[#D4AF37]/10 rounded-md mb-4">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-7 h-7 text-[var(--primary)]">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" strokeWidth="2" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold mb-3">Black Belt Recognition</h3>
+              <p className="text-[var(--muted-foreground)]">
+                Your students' black belt ranks recognized by our global network
+              </p>
+            </div>
+
+            {/* Global Network Access */}
+            <div className="bg-white border border-[var(--border)] p-8 rounded-md hover:shadow-lg transition-shadow">
+              <div className="w-14 h-14 flex items-center justify-center bg-[#D4AF37]/10 rounded-md mb-4">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-7 h-7 text-[var(--primary)]">
+                  <circle cx="12" cy="12" r="10" strokeWidth="2" />
+                  <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" strokeWidth="2" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold mb-3">Global Network Access</h3>
+              <p className="text-[var(--muted-foreground)]">
+                Connect with Masters and Dojangs from over 20 countries
+              </p>
+            </div>
+
+            {/* Tournament Priority */}
+            <div className="bg-white border border-[var(--border)] p-8 rounded-md hover:shadow-lg transition-shadow">
+              <div className="w-14 h-14 flex items-center justify-center bg-[#D4AF37]/10 rounded-md mb-4">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-7 h-7 text-[var(--primary)]">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" strokeWidth="2" />
+                  <circle cx="9" cy="7" r="4" strokeWidth="2" />
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" strokeWidth="2" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold mb-3">Tournament Priority</h3>
+              <p className="text-[var(--muted-foreground)]">
+                Priority registration and reduced fees for all HWI tournaments
+              </p>
+            </div>
+
+            {/* Training Resources */}
+            <div className="bg-white border border-[var(--border)] p-8 rounded-md hover:shadow-lg transition-shadow">
+              <div className="w-14 h-14 flex items-center justify-center bg-[#D4AF37]/10 rounded-md mb-4">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-7 h-7 text-[var(--primary)]">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z" strokeWidth="2" />
+                  <path d="M6 12v5c3 3 9 3 12 0v-5" strokeWidth="2" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold mb-3">Training Resources</h3>
+              <p className="text-[var(--muted-foreground)]">
+                Access exclusive training materials and curriculum guides
+              </p>
+            </div>
+
+            {/* Marketing Support */}
+            <div className="bg-white border border-[var(--border)] p-8 rounded-md hover:shadow-lg transition-shadow">
+              <div className="w-14 h-14 flex items-center justify-center bg-[#D4AF37]/10 rounded-md mb-4">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-7 h-7 text-[var(--primary)]">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" strokeWidth="2" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold mb-3">Marketing Support</h3>
+              <p className="text-[var(--muted-foreground)]">
+                Use the HWI brand to elevate your school's prestige
+              </p>
+            </div>
+          </div>
+
+          {/* CTA Section */}
+          <div className="bg-[var(--muted-light)] border border-[var(--border)] rounded-md p-12 text-center">
+            <h3 className="text-2xl md:text-3xl font-black mb-4">
+              Ready to Join the HWI Family?
+            </h3>
+            <p className="text-[var(--muted-foreground)] max-w-2xl mx-auto mb-8 text-lg">
+              Contact us to learn more about affiliation requirements and begin the
+              application process.
+            </p>
+            <Link
+              href="/affiliation"
+              className="inline-block px-8 py-4 bg-[var(--primary)] text-white border-none rounded-md cursor-pointer font-semibold text-lg transition-colors hover:bg-[var(--primary-dark)] no-underline"
+            >
+              Apply for Affiliation
+            </Link>
           </div>
         </div>
       </section>
