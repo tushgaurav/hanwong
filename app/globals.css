@@ -4,8 +4,8 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --primary: #D4AF37;
-  --primary-dark: #B8961F;
+  --primary: #db4a2b;
+  --primary-dark: #c03d1f;
   --border: oklch(0.92 0.004 286.32);
   --card: oklch(1 0 0);
   --muted: oklch(0.967 0.001 286.375);

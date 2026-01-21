@@ -29,13 +29,18 @@ export default function Footer() {
               </Link>
             </li>
             <li>
+              <Link href="/hall-of-fame" className="text-[var(--muted-foreground)] no-underline transition-colors hover:text-[var(--primary)]">
+                Hall of Fame
+              </Link>
+            </li>
+            <li>
               <Link href="/affiliation" className="text-[var(--muted-foreground)] no-underline transition-colors hover:text-[var(--primary)]">
                 School Affiliation
               </Link>
             </li>
             <li>
-              <Link href="/gallery" className="text-[var(--muted-foreground)] no-underline transition-colors hover:text-[var(--primary)]">
-                Media Gallery
+              <Link href="/faq" className="text-[var(--muted-foreground)] no-underline transition-colors hover:text-[var(--primary)]">
+                FAQ
               </Link>
             </li>
           </ul>
@@ -57,11 +62,6 @@ export default function Footer() {
               <Link href="/contact" className="text-[var(--muted-foreground)] no-underline transition-colors hover:text-[var(--primary)]">
                 Contact Us
               </Link>
-            </li>
-            <li>
-              <a href="#" className="text-[var(--muted-foreground)] no-underline transition-colors hover:text-[var(--primary)]">
-                FAQ
-              </a>
             </li>
           </ul>
         </div>

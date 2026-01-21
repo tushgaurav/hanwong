@@ -32,7 +32,7 @@ export default function Affiliation() {
           
           <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-6 mb-12">
             <div className="border border-[var(--border)] bg-white p-6 rounded-md">
-              <div className="w-12 h-12 flex items-center justify-center bg-[#D4AF37]/10 rounded-md mb-4 text-[var(--primary)]">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#db4a2b]/10 rounded-md mb-4 text-[var(--primary)]">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-6 h-6">
                   <path d="M12 15a3 3 0 100-6 3 3 0 000 6z"></path>
                   <path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51v.5a2 2 0 01-4 0v-.5a1.65 1.65 0 00-1-1.51 1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H4a2 2 0 010-4h.5a1.65 1.65 0 001.51-1 1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V4a2 2 0 014 0v.5a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82v.5"></path>
@@ -43,7 +43,7 @@ export default function Affiliation() {
             </div>
 
             <div className="border border-[var(--border)] bg-white p-6 rounded-md">
-              <div className="w-12 h-12 flex items-center justify-center bg-[#D4AF37]/10 rounded-md mb-4 text-[var(--primary)]">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#db4a2b]/10 rounded-md mb-4 text-[var(--primary)]">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-6 h-6">
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                 </svg>
@@ -53,7 +53,7 @@ export default function Affiliation() {
             </div>
 
             <div className="border border-[var(--border)] bg-white p-6 rounded-md">
-              <div className="w-12 h-12 flex items-center justify-center bg-[#D4AF37]/10 rounded-md mb-4 text-[var(--primary)]">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#db4a2b]/10 rounded-md mb-4 text-[var(--primary)]">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-6 h-6">
                   <circle cx="12" cy="12" r="10"></circle>
                   <path d="M12 6v6l4 2"></path>
@@ -64,7 +64,7 @@ export default function Affiliation() {
             </div>
 
             <div className="border border-[var(--border)] bg-white p-6 rounded-md">
-              <div className="w-12 h-12 flex items-center justify-center bg-[#D4AF37]/10 rounded-md mb-4 text-[var(--primary)]">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#db4a2b]/10 rounded-md mb-4 text-[var(--primary)]">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-6 h-6">
                   <path d="M3 12h18M3 6h18M3 18h18"></path>
                 </svg>
@@ -74,7 +74,7 @@ export default function Affiliation() {
             </div>
 
             <div className="border border-[var(--border)] bg-white p-6 rounded-md">
-              <div className="w-12 h-12 flex items-center justify-center bg-[#D4AF37]/10 rounded-md mb-4 text-[var(--primary)]">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#db4a2b]/10 rounded-md mb-4 text-[var(--primary)]">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-6 h-6">
                   <path d="M4 19.5A2.5 2.5 0 016.5 17H20"></path>
                   <path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"></path>
@@ -85,7 +85,7 @@ export default function Affiliation() {
             </div>
 
             <div className="border border-[var(--border)] bg-white p-6 rounded-md">
-              <div className="w-12 h-12 flex items-center justify-center bg-[#D4AF37]/10 rounded-md mb-4 text-[var(--primary)]">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#db4a2b]/10 rounded-md mb-4 text-[var(--primary)]">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-6 h-6">
                   <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
                 </svg>
