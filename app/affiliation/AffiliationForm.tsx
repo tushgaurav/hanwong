@@ -1,3 +1,5 @@
+'use client';
+
 export default function AffiliationForm() {
     const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
