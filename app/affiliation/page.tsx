@@ -30,7 +30,7 @@ export default function Affiliation() {
             Gain access to exclusive resources, global network, and prestige
           </p>
           
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-6 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <div className="border border-[var(--border)] bg-white p-6 rounded-md">
               <div className="w-12 h-12 flex items-center justify-center bg-[#db4a2b]/10 rounded-md mb-4 text-[var(--primary)]">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-6 h-6">
@@ -121,7 +121,7 @@ export default function Affiliation() {
                 ))}
               </ul>
             </div>
-            {/* <Affiliation/> */}
+            <AffiliationForm />
           </div>
         </div>
       </section>

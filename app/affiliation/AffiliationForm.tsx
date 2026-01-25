@@ -9,7 +9,7 @@ export default function AffiliationForm() {
             <h3 className="text-xl font-black mb-6">Apply Now</h3>
 
             <div className="mb-6">
-                <label className="block font-semibold mb-2">Full Name *</label>
+                <label className="block font-semibold mb-2">Full Name (Master) *</label>
                 <input type="text" placeholder="Master Name" required className="w-full p-3 border border-[var(--border)] rounded-md text-base" />
             </div>
 
@@ -30,7 +30,7 @@ export default function AffiliationForm() {
 
             <div className="mb-6">
                 <label className="block font-semibold mb-2">Message *</label>
-                <textarea placeholder="Tell us about your school..." required className="w-full p-3 border border-[var(--border)] rounded-md text-base min-h-[100px] resize-none"></textarea>
+                <textarea placeholder="Tell us about your school and why you wish to affiliate..." required className="w-full p-3 border border-[var(--border)] rounded-md text-base min-h-[120px] resize-none"></textarea>
             </div>
 
             <button type="submit" className="w-full p-3 bg-[var(--primary)] text-white border-none rounded-md cursor-pointer font-semibold transition-colors hover:bg-[var(--primary-dark)]">Submit Application</button>

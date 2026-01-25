@@ -27,7 +27,7 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-1">Email</h4>
+                  <h4 className="font-semibold mb-1">Email (General)</h4>
                   <a href="mailto:info@hanwonginternational.com" className="text-[var(--muted-foreground)] no-underline transition-colors hover:text-[var(--primary)]">info@hanwonginternational.com</a>
                 </div>
               </div>
@@ -35,12 +35,12 @@ export default function Contact() {
               <div className="flex gap-4">
                 <div className="w-10 h-10 flex items-center justify-center bg-[#db4a2b]/10 rounded-md shrink-0 text-[var(--primary)]">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-5 h-5">
-                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                    <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-1">Phone</h4>
-                  <a href="tel:+15551234567" className="text-[var(--muted-foreground)] no-underline transition-colors hover:text-[var(--primary)]">+1 (555) 123-4567</a>
+                  <h4 className="font-semibold mb-1">Tournament Logistics</h4>
+                  <a href="mailto:logistics@hanwonginternational.org" className="text-[var(--muted-foreground)] no-underline transition-colors hover:text-[var(--primary)]">logistics@hanwonginternational.org</a>
                 </div>
               </div>
 
@@ -53,7 +53,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Headquarters</h4>
-                  <p className="text-[var(--muted-foreground)] m-0">Los Angeles, CA, USA</p>
+                  <p className="text-[var(--muted-foreground)] m-0">Global Digital HQ</p>
+                  <p className="text-[var(--muted-foreground)] text-sm m-0">(Operating from Noida, India & Global Hubs)</p>
                 </div>
               </div>
 
@@ -65,8 +66,8 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-1">Office Hours</h4>
-                  <p className="text-[var(--muted-foreground)] m-0">Mon-Fri: 9AM - 5PM PST</p>
+                  <h4 className="font-semibold mb-1">Support Hours</h4>
+                  <p className="text-[var(--muted-foreground)] m-0">Mon-Fri: 9AM - 6PM IST</p>
                 </div>
               </div>
 
