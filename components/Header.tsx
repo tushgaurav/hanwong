@@ -49,7 +49,8 @@ export default function Header() {
 
           <div className="flex items-center gap-4">
             <Link
-              href="/register"
+              href="https://forms.gle/g8VTii9MNPf3rTRs5"
+              target="_blank"
               className="hidden sm:inline-block px-4 sm:px-6 py-2 bg-[var(--primary)] text-white border-none rounded-md cursor-pointer font-sans font-semibold no-underline text-sm transition-colors hover:bg-[var(--primary-dark)]"
             >
               Register Now
@@ -84,7 +85,8 @@ export default function Header() {
               </Link>
             ))}
             <Link
-              href="/register"
+              href="https://forms.gle/g8VTii9MNPf3rTRs5"
+              target="_blank"
               onClick={() => setMobileMenuOpen(false)}
               className="sm:hidden mt-2 px-4 py-3 bg-[var(--primary)] text-white text-center border-none rounded-md cursor-pointer font-sans font-semibold no-underline text-sm transition-colors hover:bg-[var(--primary-dark)]"
             >
