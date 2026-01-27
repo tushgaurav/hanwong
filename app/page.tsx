@@ -35,7 +35,8 @@ export default function Home() {
               Register for Tournament
             </Link>
             <Link
-              href="/affiliation"
+              href="https://forms.gle/RatQsbJeejSWNwRq9"
+              target="_blank"
               className="px-8 py-4 bg-white/10 text-white border border-white/30 rounded-md cursor-pointer font-semibold text-lg backdrop-blur-[4px] transition-colors hover:bg-white/15 no-underline"
             >
               Join Affiliation
