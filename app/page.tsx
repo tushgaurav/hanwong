@@ -339,7 +339,8 @@ export default function Home() {
                 Create your profile and select your belt/age category. Our system automatically places you in the correct division.
               </p>
               <Link
-                href="/register"
+                href="https://forms.gle/g8VTii9MNPf3rTRs5"
+                target="_blank"
                 className="text-[var(--primary)] no-underline font-bold text-sm uppercase hover:underline"
               >
                 GET STARTED →
