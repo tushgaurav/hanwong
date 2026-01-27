@@ -242,7 +242,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white border border-[var(--border)] rounded-md overflow-hidden hover:shadow-lg transition-shadow">
               <div className="bg-[var(--primary)] text-white p-4">
-                <div className="text-sm font-bold uppercase">Upcoming Event</div>
+                <div className="text-sm font-bold uppercase">Current Event</div>
                 <div className="text-2xl font-black">6th Scotland Open Online Poomsae, Kyukpa & Speed Kicking Championship 2026</div>
               </div>
               <div className="p-6">
@@ -258,15 +258,15 @@ export default function Home() {
                 <ul className="list-none p-0 mb-6 space-y-2">
                   <li className="flex items-start gap-2 text-black">
                     <span className="text-[var(--primary)] font-bold">•</span>
-                    🏆 Official 80mm Antique Medals for all Podium Winners.
+                    Official 80mm Antique Medals for all Podium Winners.
                   </li>
                   <li className="flex items-start gap-2 text-black">
                     <span className="text-[var(--primary)] font-bold">•</span>
-                    🌍 Global Ranking: Compete against athletes from 20+ nations.
+                    Global Ranking: Compete against athletes from 20+ nations.
                   </li>
                   <li className="flex items-start gap-2 text-black">
                     <span className="text-[var(--primary)] font-bold">•</span>
-                    ❤️ 100% Charity: Every entry fee supports humanitarian aid.
+                    100% Charity: Every entry fee supports humanitarian aid.
                   </li>
                 </ul>
                 <Link
@@ -281,8 +281,8 @@ export default function Home() {
 
             <div className="bg-white border border-[var(--border)] rounded-md overflow-hidden hover:shadow-lg transition-shadow">
               <div className="bg-gray-800 text-white p-4">
-                <div className="text-sm font-bold uppercase">Special Event</div>
-                <div className="text-2xl font-black">Youth Championship</div>
+                <div className="text-sm font-bold uppercase">Upcoming Event</div>
+                <div className="text-2xl font-black">6th Han Wong Worldwide Open Online Poomsae, Kyukpa & Speed Kicking Championship 2026</div>
               </div>
               <div className="p-6">
                 <div className="flex items-center gap-2 text-black mb-4">
@@ -297,15 +297,16 @@ export default function Home() {
                 <ul className="list-none p-0 mb-6 space-y-2">
                   <li className="flex items-start gap-2 text-black">
                     <span className="text-[var(--primary)] font-bold">•</span>
-                    Ages 5-17 Years Old
+                    Traditional E-Certificates signed by Grand Master Han Wong (9th Dan).
                   </li>
                   <li className="flex items-start gap-2 text-black">
                     <span className="text-[var(--primary)] font-bold">•</span>
-                    Beginner to Advanced Divisions
+                    Global Ranking: Compete against athletes from 20+ nations.
+
                   </li>
                   <li className="flex items-start gap-2 text-black">
                     <span className="text-[var(--primary)] font-bold">•</span>
-                    Encouraging Environment for Young Athletes
+                    Official 80mm Antique Medals for all Podium Winners.
                   </li>
                 </ul>
                 <Link
