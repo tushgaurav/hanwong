@@ -28,7 +28,8 @@ export default function Home() {
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-16">
             <Link
-              href="/register"
+              href="https://forms.gle/g8VTii9MNPf3rTRs5"
+              target="_blank"
               className="px-8 py-4 bg-[var(--primary)] text-white border-none rounded-md cursor-pointer font-semibold text-lg transition-colors hover:bg-[var(--primary-dark)] no-underline"
             >
               Register for Tournament
