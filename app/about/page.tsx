@@ -67,6 +67,14 @@ export default function About() {
                   <div className="text-2xl font-black text-[var(--primary)]">10,000+</div>
                   <div className="text-black text-sm">Students Trained</div>
                 </div>
+                <div className="border border-[var(--border)] bg-white p-4 rounded-md">
+                  <div className="text-2xl font-black text-[var(--primary)]">100+</div>
+                  <div className="text-black text-sm">Black Belts Certified</div>
+                </div>
+                <div className="border border-[var(--border)] bg-white p-4 rounded-md">
+                  <div className="text-2xl font-black text-[var(--primary)]">20+</div>
+                  <div className="text-black text-sm">Countries Visited</div>
+                </div>
               </div>
             </div>
           </div>
