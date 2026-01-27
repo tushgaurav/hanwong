@@ -243,7 +243,7 @@ export default function Home() {
             <div className="bg-white border border-[var(--border)] rounded-md overflow-hidden hover:shadow-lg transition-shadow">
               <div className="bg-[var(--primary)] text-white p-4">
                 <div className="text-sm font-bold uppercase">Upcoming Event</div>
-                <div className="text-2xl font-black">2024 World Championship</div>
+                <div className="text-2xl font-black">6th Scotland Open Online Poomsae, Kyukpa & Speed Kicking Championship 2026</div>
               </div>
               <div className="p-6">
                 <div className="flex items-center gap-2 text-black mb-4">
@@ -258,19 +258,20 @@ export default function Home() {
                 <ul className="list-none p-0 mb-6 space-y-2">
                   <li className="flex items-start gap-2 text-black">
                     <span className="text-[var(--primary)] font-bold">•</span>
-                    Poomsae & Shadow Sparring Categories
+                    🏆 Official 80mm Antique Medals for all Podium Winners.
                   </li>
                   <li className="flex items-start gap-2 text-black">
                     <span className="text-[var(--primary)] font-bold">•</span>
-                    All Belt Ranks & Age Groups Welcome
+                    🌍 Global Ranking: Compete against athletes from 20+ nations.
                   </li>
                   <li className="flex items-start gap-2 text-black">
                     <span className="text-[var(--primary)] font-bold">•</span>
-                    International Panel of Certified Judges
+                    ❤️ 100% Charity: Every entry fee supports humanitarian aid.
                   </li>
                 </ul>
                 <Link
-                  href="/register"
+                  href="https://forms.gle/Po4etRnRd7swQ1JY9"
+                  target="_blank"
                   className="inline-block px-6 py-3 bg-[var(--primary)] text-white border-none rounded-md cursor-pointer font-semibold transition-colors hover:bg-[var(--primary-dark)] no-underline"
                 >
                   Register Now
