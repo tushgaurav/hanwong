@@ -17,7 +17,7 @@ export default function Home() {
         <div className="relative z-[3] text-center text-white max-w-4xl px-8">
           <div className="inline-flex items-center gap-2 bg-[#db4a2b]/10 border border-[#db4a2b]/30 px-4 py-2 rounded-full text-sm mb-6 backdrop-blur-[4px]">
             <span className="inline-block w-2 h-2 bg-[var(--primary)] rounded-full animate-pulse-custom"></span>
-            <span>6th Scotland Open 2026</span>
+            <span>6th Scotland Open Online Poomsae, Kyukpa & Speed Kicking Championship 2026</span>
           </div>
           <h1 className="text-4xl md:text-6xl lg:text-[3.5rem] font-black mb-6 leading-[1.2]">
             Compete on the <span className="text-[var(--primary)]">Global Stage</span>
