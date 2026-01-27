@@ -473,7 +473,8 @@ export default function Home() {
               application process.
             </p>
             <Link
-              href="/affiliation"
+              href="https://forms.gle/BTFTG4gbyqSeEwCC8"
+              target="_blank"
               className="inline-block px-8 py-4 bg-[var(--primary)] text-white border-none rounded-md cursor-pointer font-semibold text-lg transition-colors hover:bg-[var(--primary-dark)] no-underline"
             >
               Apply for Affiliation
