@@ -28,7 +28,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Email (General)</h4>
-                  <a href="mailto:info@hanwonginternational.com" className="text-[var(--muted-foreground)] no-underline transition-colors hover:text-[var(--primary)]">info@hanwonginternational.com</a>
+                  <a href="mailto:director@hanwonginternational.com" className="text-[var(--muted-foreground)] no-underline transition-colors hover:text-[var(--primary)]">director@hanwonginternational.com</a>
                 </div>
               </div>
 

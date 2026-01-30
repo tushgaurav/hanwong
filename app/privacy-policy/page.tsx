@@ -66,7 +66,7 @@ export default function PrivacyPolicy() {
           <p className="mt-2">
             <strong>Han Wong International</strong><br />
             Los Angeles, CA, USA<br />
-            Email: info@hanwonginternational.com<br />
+            Email: director@hanwonginternational.com<br />
             Phone: (+91) 6294-278034
           </p>
         </section>
