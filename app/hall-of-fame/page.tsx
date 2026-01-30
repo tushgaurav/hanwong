@@ -161,12 +161,15 @@ export default function HallOfFame() {
                 "
               </div>
               <p className="text-lg italic mb-8 relative z-10">
-                Han Wong International provides a unique platform that unites the martial arts community beyond borders.
+                It was a great experience and what a noble cause. In today's
+lifestyle where egocentrism and selfishness are the rule, the work
+of charity is priceless. As Mother Teresa said 'Charity is above
+love.' I agree by more than 100%.
               </p>
               <div className="flex items-center gap-6">
                 <div>
-                  <h4 className="font-black text-[var(--primary)]">Grand Master Julie Tregeagle</h4>
-                  <p className="text-xs text-[#999999]">7th Dan, Regional Director (USA)</p>
+                  <h4 className="font-black text-[var(--primary)]">Master Teresa Semmunegus</h4>
+                  <p className="text-xs text-[#999999]">Achievers awards Inductee (USA)</p>
                 </div>
               </div>
             </div>
@@ -180,8 +183,8 @@ export default function HallOfFame() {
               </p>
               <div className="flex items-center gap-6">
                 <div>
-                  <h4 className="font-black text-[var(--primary)]">Master Rajesh Kumar</h4>
-                  <p className="text-xs text-[#999999]">5th Dan, National Coach (India)</p>
+                  <h4 className="font-black text-[var(--primary)]"> Grand Master Jim Harp </h4>
+                  <p className="text-xs text-[#999999]">Hall of fame Inductee (USA)</p>
                 </div>
               </div>
             </div>
