@@ -69,7 +69,7 @@ export default function Footer() {
           <h4 className="font-semibold mb-4">Contact</h4>
           <ul className="list-none p-0 flex flex-col gap-3 text-[var(--muted-foreground)] text-sm">
             <li>📧 info@hanwonginternational.com</li>
-            <li>📞 +1 (555) 123-4567</li>
+            <li>📞 (+91) 6294-278034</li>
             <li>📍 Los Angeles, CA, USA</li>
           </ul>
         </div>

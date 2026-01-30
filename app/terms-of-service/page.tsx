@@ -73,7 +73,7 @@ export default function TermsOfService() {
             <strong>Han Wong International</strong><br />
             Los Angeles, CA, USA<br />
             Email: info@hanwonginternational.com<br />
-            Phone: +1 (555) 123-4567
+            Phone: (+91) 6294-278034
           </p>
         </section>
       </div>
