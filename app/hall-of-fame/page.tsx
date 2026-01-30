@@ -169,7 +169,7 @@ love.' I agree by more than 100%.
               <div className="flex items-center gap-6">
                 <div>
                   <h4 className="font-black text-[var(--primary)]">Master Teresa Semmunegus</h4>
-                  <p className="text-xs text-[#999999]">Achievers awards Inductee (USA)</p>
+                  <p className="text-xs text-[#999999]">Achievers Awards Inductee (USA)</p>
                 </div>
               </div>
             </div>
@@ -184,7 +184,7 @@ love.' I agree by more than 100%.
               <div className="flex items-center gap-6">
                 <div>
                   <h4 className="font-black text-[var(--primary)]"> Grand Master Jim Harp </h4>
-                  <p className="text-xs text-[#999999]">Hall of fame Inductee (USA)</p>
+                  <p className="text-xs text-[#999999]">Hall of Fame Inductee (USA)</p>
                 </div>
               </div>
             </div>
