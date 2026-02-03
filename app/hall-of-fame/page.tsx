@@ -12,7 +12,7 @@ const hallOfFameInductees = [
     title: "2025 Grand Champion (Poomsae)",
     country: "United States",
     image: "https://images.unsplash.com/photo-1566492031773-4f4e44671857?w=400&h=500&fit=crop",
-    bio: "Marcus has dominated the Poomsae division for three consecutive years, setting new standards for technical precision and artistic expression. His dedication to perfecting every movement has inspired a new generation of practitioners.",
+    bio: "Marcus has dominated the Poomsae division for three consecutive years, setting new standards for technical precision and artistic expression. His dedication to perfecting every movement has inspired a new generation of practitioners.Marcus has dominated the Poomsae division for three consecutive years, setting new standards for technical precision and artistic expression. His dedication to perfecting every movement has inspired a new generation of practitioners.Marcus has dominated the Poomsae division for three consecutive years, setting new standards for technical precision and artistic expression. His dedication to perfecting every movement has inspired a new generation of practitioners.Marcus has dominated the Poomsae division for three consecutive years, setting new standards for technical precision and artistic expression. His dedication to perfecting every movement has inspired a new generation of practitioners.",
   },
   {
     name: "Arjun Singh",
